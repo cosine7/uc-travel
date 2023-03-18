@@ -1,0 +1,251 @@
+.solution {
+  .icon {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+
+    svg {
+      height: 50%;
+      width: 50%;
+      color: white;
+    }
+  }
+
+  .header {
+    background: url('../../assets/images/meeting.jpeg');
+    height: 600px;
+    background-size: 100%;
+    position: relative;
+    text-align: center;
+
+    .mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, .6);
+    }
+
+    .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    h3 {
+      margin: 0 0 2rem 0;
+    }
+
+    h4 {
+      margin: 5px 0;
+    }
+  }
+
+  .business {
+    padding: 2rem;
+    text-align: center;
+
+    .icon {
+      margin-right: 1.5rem;
+    }
+
+    h5 {
+      color: gray;
+      margin-bottom: 4rem;
+    }
+
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .card {
+      width: 40%;
+      display: flex;
+      text-align: left;
+      margin-bottom: 3rem;
+
+      h3 {
+        margin: 0 0 1rem;
+      }
+
+      h5 {
+        margin: 8px 0;
+      }
+    }
+
+    .icon {
+      margin-right: 1.5rem;
+    }
+  }
+
+  .system {
+    text-align: center;
+    background-color: #efefef;
+    padding: 2rem;
+
+    h5 {
+      color: gray;
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .card {
+      margin-top: 2rem;
+    }
+  }
+
+  .travel {
+    text-align: center;
+    background: url('../../assets/images/working.jpeg');
+    background-size: 100%;
+    color: white;
+    
+    .mask {
+      padding: 2rem 6rem;
+      background-color: rgba(0, 0, 0, .75);
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: left;
+      margin: 4rem 0 2rem;
+    }
+
+    .card {
+      width: 30%;
+
+      h2 {
+        color: var(--color-primary);
+      }
+
+      h3 {
+        border-bottom: 1px solid var(--color-primary);
+        padding-bottom: 5px;
+        margin: 3rem 0 1rem;
+      }
+
+      h5 {
+        margin: 5px 0;
+      }
+    }
+  }
+
+  .capital {
+    padding: 2rem 0 4rem;
+    background-color: #efefef;
+    text-align: center;
+
+    h5 {
+      color: gray;
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 4rem;
+
+      .card:nth-child(2) {
+        .line {
+          background-color: var(--color-primary);
+        }
+      }
+    }
+
+    .card {
+      width: 25%;
+      background-color: white;
+      padding: 4rem 0 2rem;
+      overflow: hidden;
+      border-radius: 8px;
+      position: relative;
+
+      h5 {
+        margin: 10px;
+      }
+    }
+
+    .icon {
+      height: 3rem;
+      width: 3rem;
+      margin-right: 1rem;
+    }
+
+    .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .line {
+      height: 8px;
+      background-color: black;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  .connection {
+    text-align: center;
+    padding: 2rem;
+
+    h5 {
+      color: gray;
+      margin-bottom: 4rem;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 800px;
+      margin: 0 auto 2rem;
+      position: relative;
+
+      .rect:nth-child(2n) {
+        background-color: var(--color-primary);
+      }
+    }
+
+    .rect {
+      height: 80px;
+      width: 150px;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .line {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      height: 2px;
+      background-color: #F56C6C;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+}
