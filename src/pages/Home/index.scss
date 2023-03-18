@@ -1,0 +1,242 @@
+.home {
+  .video-wrapper {
+    position: relative;
+    display: flex;
+
+    video {
+      width: 100%;
+    }
+
+    .video-mask {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, .4);
+    }
+
+    .title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+
+      h1, h4 {
+        margin: 5px;
+      }
+
+      h1:first-child {
+        color: var(--color-primary);
+        font-size: 3rem;
+      }
+
+      h1:nth-child(2) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .demand {
+    padding: 5rem 0;
+    text-align: center;
+    box-sizing: border-box;
+
+    h4 {
+      color: gray
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--color-primary);
+      height: 5rem;
+      width: 5rem;
+      border-radius: 50%;
+
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: white;
+      }
+    }
+
+    .items {
+      padding: 2rem 2rem 0;
+      display: flex;
+      justify-content: space-evenly;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h5 {
+        color: gray;
+        margin: 2px 0;
+      }
+    }
+  }
+
+  .advantage {
+    background: url('../../assets/images/building.jpeg');
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+
+    svg {
+      transition: all .3s;
+      position: relative;
+      top: 2rem;
+      width: 8rem;
+      height: 8rem;
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 4rem;
+
+      .card {
+        box-sizing: border-box;
+        padding: 2rem 0;
+        width: 18%;
+        background: linear-gradient(180deg,#72b4f7,#1889fa);
+
+        h3:first-of-type {
+          margin-bottom: 5px;
+          font-size: 1.5rem;
+        }
+
+        h3, .subtitle {
+          transition: all .3s;
+          position: relative;
+          top: 4rem;
+        }
+
+        .subtitle {
+          font-size: 1rem;
+          margin: 0 0 2rem;
+          text-transform: uppercase;
+        }
+
+        h5 {
+          margin: 5px;
+          opacity: 0;
+          position: relative;
+          top: 2rem;
+          transition: all .3s;
+          left: 0;
+        }
+
+        &:hover {
+          cursor: pointer;
+  
+          h5 {
+            opacity: 1;
+            top: 0;
+          }
+
+          h3, .subtitle {
+            top: 0;
+          }
+
+          svg {
+            top: 0;
+            width: 5rem;
+            height: 5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .solution {
+    background: url('../../assets/images/laptop.jpeg');
+    color: var(--color-primary);
+
+    h1 {
+      color: black;
+    }
+
+    .mask {
+      background-color: rgba(255, 255, 255, .8);
+      padding: 5rem 0;
+      text-align: center;
+    }
+
+    h4 {
+      color: gray;
+      margin-bottom: 4rem;
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .card {
+      width: 17%;
+      padding: 2rem;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    }
+
+    svg {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    h5 {
+      margin: 4rem 0 0 0;
+      color: gray;
+    }
+  }
+
+  .custom {
+    text-align: center;
+    padding: 2rem 8rem;
+
+    h4 {
+      color: gray;
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 30%;
+      padding: 2rem;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid var(--color-primary);
+      border-radius: 50%;
+      width: 6rem;
+      height: 6rem;
+      margin: 0 auto;
+    }
+
+    svg {
+      width: 4rem;
+      height: 4rem;
+      color: var(--color-primary);
+    }
+
+    h5 {
+      color: gray;
+    }
+  }
+}
