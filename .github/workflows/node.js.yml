@@ -30,7 +30,7 @@ jobs:
     - run: PUBLIC_URL=uc-travel npm run build
     
     - name: Deploy to GH Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v3.9.2
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: build
