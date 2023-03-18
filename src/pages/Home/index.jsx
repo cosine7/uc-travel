@@ -48,10 +48,10 @@ export default function Home() {
       <div className='video-wrapper'>
         <video
           src={video}
-          autoPlay="autoplay"
+          autoPlay
           playsInline
-          muted="muted"
-          loop="loop"
+          muted
+          loop
         />
         <div className='video-mask'/>
         <div className='title'>
