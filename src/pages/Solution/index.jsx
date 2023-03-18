@@ -1,12 +1,14 @@
 import './index.scss'
 import { ImAirplane } from 'react-icons/im'
 import { FaHotel, FaPassport, FaCar, FaMoneyCheckAlt } from 'react-icons/fa'
-import { MdTrain } from 'react-icons/md'
+import { MdTrain, MdOutlineCalendarMonth } from 'react-icons/md'
 import { AiFillInsurance, AiOutlineControl } from 'react-icons/ai'
 import { RiReservedLine } from 'react-icons/ri'
 import { BsClipboardData } from 'react-icons/bs'
 import { TbDeviceDesktopAnalytics } from 'react-icons/tb'
 import { Fragment } from 'react'
+import { CgFormatSeparator } from 'react-icons/cg'
+import { BiAbacus } from 'react-icons/bi'
 
 const businesses = [
   { icon: <ImAirplane />, title: '机票', content: ['国内及国际多家航空公司官网直运价且引入渠道比价', '国内外机票实时查询, 多渠道快捷预订, 全程关怀服务', '协助企业与航空公司签定大客户协议且承接托管服务', '专业差旅顾问提供退票、改签等7*24小时不间断优质服务保障'] },
@@ -32,9 +34,9 @@ const travels = [
 ]
 
 const capitals = [
-  { icon: <ImAirplane />, title: '月结额度', content: ['给予符合条件的单位客户差旅月结额度', '为单位客户的出行提供全额垫资'] },
-  { icon: <FaHotel />, title: '分账管理', content: ['按成本中心归集, 按BU归集, 按部门归集', '按项目编号归集, 按子公司、分公司归集'] },
-  { icon: <MdTrain />, title: '报销凭证', content: ['提供行程单或全额发票', '优化单位客户财务报销流程, 做到透明合规'] },
+  { icon: <MdOutlineCalendarMonth />, title: '月结额度', content: ['给予符合条件的单位客户差旅月结额度', '为单位客户的出行提供全额垫资'] },
+  { icon: <CgFormatSeparator />, title: '分账管理', content: ['按成本中心归集, 按BU归集, 按部门归集', '按项目编号归集, 按子公司、分公司归集'] },
+  { icon: <BiAbacus />, title: '报销凭证', content: ['提供行程单或全额发票', '优化单位客户财务报销流程, 做到透明合规'] },
 ]
 
 const connections = ['单点登录', '提前审批对接', '延后审批对接', '纯API对接']
