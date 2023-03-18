@@ -1,4 +1,4 @@
-import { createHashRouter, Navigate } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import App from "../App";
 import Home from "../pages/Home";
 
@@ -9,19 +9,12 @@ export default createHashRouter([
     children: [
       {
         path: '',
-        element: <Home />
+        element: <Home />,
       },
       {
         path: 'some',
         element: <Home />
       }
     ]
-  },
-  {
-    path: '',
-    element: <Navigate to="/" />
   }
-],
-{
-  basename: process.env.PUBLIC_URL
-})
+])

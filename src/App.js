@@ -11,7 +11,7 @@ const items = [
   { text: '关于我们', path: 'about' },
   { text: '加入我们', path: 'join' },
 ]
-console.log('hello');
+
 function App() {
   const [navBarClass, setNavBarClass] = useState(null)
 
