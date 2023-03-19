@@ -3,16 +3,15 @@ import './App.scss';
 import { NavLink, Outlet } from 'react-router-dom';
 import { useCallback, useEffect, useState } from 'react';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 const items = [
   { text: '首页', path: '' },
   { text: '解决方案', path: 'solution' },
-  { text: '企业旅游', path: 'travel' },
   { text: '关于我们', path: 'about' },
-  { text: '加入我们', path: 'join' },
 ]
 
-function App() {
+export default function App() {
   const [navBarClass, setNavBarClass] = useState(null)
 
   const onScroll = useCallback(() => {
@@ -31,6 +30,7 @@ function App() {
 
   return (
     <>
+      <ScrollToTop />
       <nav className={`nav ${navBarClass}`}>
         <div className='left'>
           <Logo className='logo' />
@@ -51,5 +51,3 @@ function App() {
     </>
   );
 }
-
-export default App;

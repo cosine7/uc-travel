@@ -1,0 +1,175 @@
+.about {
+  .banner {
+    background-image: url('../../assets/images/airplane.jpeg');
+    background-size: 100%;
+
+    .mask {
+      height: 600px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+
+      h1 {
+        margin-bottom: 5px;
+      }
+
+      h3 {
+        margin: 0 0 2rem;
+      }
+
+      h4 {
+        margin: 5px 0;
+      }
+    }
+  }
+
+  .introduction {
+    padding: 2rem;
+    text-align: center;
+
+    h4 {
+      color: gray;
+      margin-bottom: 4rem;
+    }
+
+    .boss {
+      background-image: url('../../assets/images/boss.jpg');
+      background-size: 100% auto;
+      width: 600px;
+      height: 400px;
+      margin-right: 2rem;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      width: 500px;
+      text-align: left;
+      font-size: .9rem;
+      color: #515254;
+
+      p {
+        margin: 2rem 0;
+      }
+    }
+  }
+
+  .culture {
+    background-image: url('../../assets/images/aerofoil.jpg');
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    color: white;
+
+    .mask {
+      padding: 2rem 15rem 4rem;
+      background-color: rgba(0, 0, 0, .6);
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    h4 {
+      margin-bottom: 4rem;
+    }
+
+    svg {
+      width: 4rem;
+      height: 4rem;
+
+      path {
+        stroke: white;
+      }
+    }
+
+    h3 {
+      color: var(--color-primary);
+    }
+
+    .card {
+      h4 {
+        margin: 5px 0;
+      }
+    }
+  }
+
+  .qualification {
+    text-align: center;
+    background-color: #efefef;
+    padding: 2rem 8rem 4rem;
+
+    h4 {
+      color: gray;
+    }
+
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .card {
+      width: 280px;
+      background-color: white;
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+
+      img {
+        width: 100%;
+        height: 188px;
+      }
+    }
+
+    p {
+      font-size: 0.9rem;
+      font-weight: bold;
+      margin: 5px;
+    }
+  }
+
+  .feature {
+    padding: 2rem 6rem 4rem;
+    text-align: center;
+
+    h4 {
+      color: gray;
+      margin-bottom: 4rem;
+    }
+
+    .card {
+      width: 390px;
+      text-align: left;
+
+      p {
+        font-weight: bold;
+        font-size: .9rem;
+        margin: 5px 0;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .line {
+      height: 2px;
+      background-color: var(--color-primary);
+      width: 3.6rem;
+    }
+  }
+}
