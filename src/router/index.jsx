@@ -1,6 +1,7 @@
 import { createHashRouter } from "react-router-dom";
 import App from "../App";
 import About from "../pages/About";
+import Cooperation from "../pages/Cooperation";
 import Home from "../pages/Home";
 import Solution from "../pages/Solution";
 
@@ -20,6 +21,10 @@ export default createHashRouter([
       {
         path: 'about',
         element: <About />
+      },
+      {
+        path: 'cooperation',
+        element: <Cooperation />
       }
     ]
   }

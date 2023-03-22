@@ -9,6 +9,7 @@ const items = [
   { text: '首页', path: '' },
   { text: '解决方案', path: 'solution' },
   { text: '关于我们', path: 'about' },
+  { text: '企业合作', path: 'cooperation' },
 ]
 
 export default function App() {
