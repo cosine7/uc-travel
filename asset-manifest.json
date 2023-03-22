@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/uc-travel/static/css/main.9abecbd0.css",
-    "main.js": "/uc-travel/static/js/main.5ad19d36.js",
+    "main.css": "/uc-travel/static/css/main.508dfb92.css",
+    "main.js": "/uc-travel/static/js/main.453138bc.js",
     "static/js/787.71a6db40.chunk.js": "/uc-travel/static/js/787.71a6db40.chunk.js",
     "static/media/welcome.mp4": "/uc-travel/static/media/welcome.2f9d62a9c19bd5ae4b82.mp4",
+    "static/media/partner.jpg": "/uc-travel/static/media/partner.8c17a726471a43f7e458.jpg",
+    "static/media/cooperation.jpg": "/uc-travel/static/media/cooperation.9d11e1c9e5b1f599a4eb.jpg",
     "static/media/building.jpeg": "/uc-travel/static/media/building.33244d95ef0bc58abc15.jpeg",
     "static/media/aerofoil.jpg": "/uc-travel/static/media/aerofoil.f021ecbf84aa2beb2242.jpg",
     "static/media/airplane.jpeg": "/uc-travel/static/media/airplane.15a79eb3bcb964e86312.jpeg",
@@ -28,16 +30,31 @@
     "static/media/2021-2022年东方航空指定合作差旅管理服务商.jpg": "/uc-travel/static/media/2021-2022年东方航空指定合作差旅管理服务商.4d1f636e3a5b94b3b327.jpg",
     "static/media/信息系统安全等级保护备案二级证明.jpg": "/uc-travel/static/media/信息系统安全等级保护备案二级证明.a8ad90545e29f100cbbf.jpg",
     "static/media/国际航协IATA资质.png": "/uc-travel/static/media/国际航协IATA资质.21c33fc308cbad78d2b6.png",
+    "static/media/12.png": "/uc-travel/static/media/12.8dcd61638811439d7f87.png",
     "static/media/2021年胡润百富企业商旅服务最佳表现奖.jpg": "/uc-travel/static/media/2021年胡润百富企业商旅服务最佳表现奖.1c7959e465ecd900eed0.jpg",
+    "static/media/10.png": "/uc-travel/static/media/10.ed0cb30633cc7b3cf6d3.png",
+    "static/media/6.png": "/uc-travel/static/media/6.b7e0105745aa80229811.png",
+    "static/media/9.png": "/uc-travel/static/media/9.61740e0f260b77548a9a.png",
+    "static/media/0.png": "/uc-travel/static/media/0.38042c720fcba9d9e351.png",
+    "static/media/2.png": "/uc-travel/static/media/2.cbd84d382bae4429e148.png",
+    "static/media/11.png": "/uc-travel/static/media/11.17e2194971ad4f1f6543.png",
+    "static/media/13.png": "/uc-travel/static/media/13.8b7f4de881e88b1a4d3e.png",
+    "static/media/5.png": "/uc-travel/static/media/5.917117d91952baa2e123.png",
+    "static/media/4.png": "/uc-travel/static/media/4.a59ea16d2d01995bfd7e.png",
+    "static/media/8.png": "/uc-travel/static/media/8.b2cc73678d816c65d446.png",
+    "static/media/3.png": "/uc-travel/static/media/3.f57ca1da1acb6df790a6.png",
+    "static/media/7.png": "/uc-travel/static/media/7.122d75280d092b97e0d1.png",
     "static/media/2022年海南航空优秀合作伙伴.jpg": "/uc-travel/static/media/2022年海南航空优秀合作伙伴.68a342ebe927d3707e75.jpg",
     "static/media/2021-2022年最具影响力人力资源品牌.jpg": "/uc-travel/static/media/2021-2022年最具影响力人力资源品牌.22bf4b7adfa504dd961b.jpg",
+    "static/media/1.png": "/uc-travel/static/media/1.40b6ef478f73e707357c.png",
+    "static/media/14.png": "/uc-travel/static/media/14.36d992176ba290938488.png",
     "index.html": "/uc-travel/index.html",
-    "main.9abecbd0.css.map": "/uc-travel/static/css/main.9abecbd0.css.map",
-    "main.5ad19d36.js.map": "/uc-travel/static/js/main.5ad19d36.js.map",
+    "main.508dfb92.css.map": "/uc-travel/static/css/main.508dfb92.css.map",
+    "main.453138bc.js.map": "/uc-travel/static/js/main.453138bc.js.map",
     "787.71a6db40.chunk.js.map": "/uc-travel/static/js/787.71a6db40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9abecbd0.css",
-    "static/js/main.5ad19d36.js"
+    "static/css/main.508dfb92.css",
+    "static/js/main.453138bc.js"
   ]
 }
