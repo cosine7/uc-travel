@@ -2,6 +2,7 @@ import './index.scss'
 import { HiOutlineBuildingOffice2 } from 'react-icons/hi2'
 import { RiComputerLine } from 'react-icons/ri'
 import { FaWarehouse } from 'react-icons/fa'
+import Banner from '@components/Banner'
 
 const contacts = [
   { icon: <HiOutlineBuildingOffice2 />, title: '企业客户合作专线', content: ['联系人：瞿先生', 'TEL： 4006-123-123 转 4', 'Email： algernon.qu@homsom.com'] },
@@ -12,12 +13,11 @@ const contacts = [
 export default function Cooperation() {
   return (
     <div className='cooperation'>
-      <div className="banner">
-        <div className="mask">
-          <h1>企业合作</h1>
-          <h3>COOPERATION</h3>
-        </div>
-      </div>
+      <Banner
+        image="cooperation.jpg"
+        title="企业合作"
+        subtitle="cooperation"
+      />
       <div className="contact">
         <h1>联系方式</h1>
         <h4>如果您有其他需求与我们合作，请通过以下方式联系我们，我们资深的业务板块负责人将会为您提供专业、细致的服务与对接</h4>

@@ -4,6 +4,7 @@ import About from "../pages/About";
 import Cooperation from "../pages/Cooperation";
 import Home from "../pages/Home";
 import Solution from "../pages/Solution";
+import Tourism from "../pages/Tourism";
 
 export default createHashRouter([
   {
@@ -25,6 +26,10 @@ export default createHashRouter([
       {
         path: 'cooperation',
         element: <Cooperation />
+      },
+      {
+        path: 'tourism',
+        element: <Tourism />
       }
     ]
   }

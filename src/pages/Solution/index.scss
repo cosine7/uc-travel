@@ -16,43 +16,6 @@
     }
   }
 
-  .header {
-    background: url('../../assets/images/meeting.jpeg');
-    height: 600px;
-    background-size: 100%;
-    position: relative;
-    text-align: center;
-
-    .mask {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, .6);
-    }
-
-    .text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-    }
-
-    h1 {
-      margin-bottom: 5px;
-    }
-
-    h3 {
-      margin: 0 0 2rem 0;
-    }
-
-    h4 {
-      margin: 5px 0;
-    }
-  }
-
   .business {
     padding: 2rem;
     text-align: center;

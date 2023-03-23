@@ -9,6 +9,7 @@ import { TbDeviceDesktopAnalytics } from 'react-icons/tb'
 import { Fragment } from 'react'
 import { CgFormatSeparator } from 'react-icons/cg'
 import { BiAbacus } from 'react-icons/bi'
+import Banner from '../../components/Banner'
 
 const businesses = [
   { icon: <ImAirplane />, title: '机票', content: ['国内及国际多家航空公司官网直运价且引入渠道比价', '国内外机票实时查询, 多渠道快捷预订, 全程关怀服务', '协助企业与航空公司签定大客户协议且承接托管服务', '专业差旅顾问提供退票、改签等7*24小时不间断优质服务保障'] },
@@ -44,15 +45,15 @@ const connections = ['单点登录', '提前审批对接', '延后审批对接',
 export default function Solution() {
   return (
     <div className='solution'>
-      <div className='header'>
-        <div className='mask' />
-        <div className='text'>
-          <h1>解决方案</h1>
-          <h3>SOLUTION</h3>
-          <h4>一切差旅管理工作都可以从商旅客开始。无论是行程制定、账单管理、企业授信，</h4>
-          <h4>团队成员以更高效的协作方式，为运营管理目标不断创造成果。</h4>
-        </div>
-      </div>
+      <Banner
+        image='solution.jpeg'
+        title='解决方案'
+        subtitle='solution'
+        content={[
+          '一切差旅管理工作都可以从商旅客开始。无论是行程制定、账单管理、企业授信,',
+          '团队成员以更高效的协作方式，为运营管理目标不断创造成果。',
+        ]}
+      />
       <div className="business">
         <h1>商旅产品解决方案</h1>
         <h5>为企业用户提供机票、酒店、火车、签证、保险、旅游等一站式差旅服务</h5>

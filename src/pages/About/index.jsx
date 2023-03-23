@@ -2,6 +2,7 @@ import './index.scss'
 import { CiMedal } from 'react-icons/ci'
 import { HiOutlinePaperAirplane } from 'react-icons/hi'
 import { GrDiamond } from 'react-icons/gr'
+import Banner from '@components/Banner'
 
 const cultures = [
   { icon: <CiMedal />, title: '我们的使命', content: ['助力企业商旅数智升级', '助力企业商旅降本增效'] },
@@ -41,13 +42,12 @@ const features = [
 export default function About() {
   return (
     <div className='about'>
-      <div className="banner">
-        <div className="mask">
-          <h1>关于我们</h1>
-          <h3>ABOUT US</h3>
-          <h4>做更好的自己, 做更好的服务</h4>
-        </div>
-      </div>
+      <Banner
+        image='about.jpeg'
+        title="关于我们"
+        subtitle="about us"
+        content={['做更好的自己, 做更好的服务']}
+      />
       <div className="introduction">
         <h1>优创 (上海) 国际旅行社有限公司</h1>
         <h4>UC Travel (Shanghai) Co., Ltd</h4>

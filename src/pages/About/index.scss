@@ -1,32 +1,4 @@
 .about {
-  .banner {
-    background-image: url('../../assets/images/airplane.jpeg');
-    background-size: 100%;
-
-    .mask {
-      height: 600px;
-      width: 100%;
-      background-color: rgba(0, 0, 0, .7);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      color: white;
-
-      h1 {
-        margin-bottom: 5px;
-      }
-
-      h3 {
-        margin: 0 0 2rem;
-      }
-
-      h4 {
-        margin: 5px 0;
-      }
-    }
-  }
-
   .introduction {
     padding: 2rem;
     text-align: center;

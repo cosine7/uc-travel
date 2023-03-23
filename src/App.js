@@ -10,6 +10,7 @@ const items = [
   { text: '解决方案', path: 'solution' },
   { text: '关于我们', path: 'about' },
   { text: '企业合作', path: 'cooperation' },
+  { text: '企业旅游', path: 'tourism' },
 ]
 
 export default function App() {
