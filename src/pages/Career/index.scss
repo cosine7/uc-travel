@@ -1,0 +1,166 @@
+.career {
+  .banner {
+    background-position: center;
+  }
+
+  .benefit {
+    text-align: center;
+    padding: 2rem 8rem 4rem;
+
+    h4 {
+      color: gray;
+      margin-bottom: 4rem;
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .line {
+      height: 200px;
+      width: 1px;
+      background-color: #DDDFE6;
+    }
+
+    svg {
+      width: 4rem;
+      height: 4rem;
+      color: var(--color-primary);
+    }
+  }
+
+  .recruit {
+    background-color: #F4F4F5;
+    padding: 2rem 2rem 4rem;
+    text-align: center;
+
+    h4 {
+      color: gray;
+      margin-bottom: 4rem;
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: left;
+
+      h3 {
+        color: var(--color-primary);
+      }
+
+      h5 {
+        margin: 5px 0;
+        color: #666;
+      }
+
+      button {
+        background-color: var(--color-primary);
+        color: white;
+        outline: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 8px;
+        padding: .5rem 1rem;
+        margin-top: 1.5rem;
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover {
+          background-color: #79bbff;
+        }
+
+        &:active {
+          background-color: #337ecc;
+        }
+
+        svg {
+          margin-left: .5rem;
+          transform: scale(1.5);
+        }
+      }
+    }
+    
+    .bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4rem;
+
+      .line {
+        width: 1px;
+        height: 300px;
+        background-color: var(--color-primary);
+        margin: 0 10rem;
+      }
+
+      .title {
+        text-align: right;
+      }
+
+      h3 {
+        color: var(--color-primary);
+      }
+
+      .contact {
+        text-align: left;
+
+        h4 {
+          color: #666;
+          margin: 5px 0;
+        }
+
+        h3 {
+          margin: 2rem 0 .5rem;
+        }
+      }
+    }
+  }
+}
+
+.popup {
+  .job-description {
+    padding: 1.5rem 3rem;
+
+    > h3:first-of-type {
+      color: var(--color-primary);
+      margin-top: .5rem;
+    }
+
+    .education {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+
+      p {
+        color: #666;
+        font-size: .9rem;
+        margin: 0;
+        font-weight: bold;
+      }
+
+      .line {
+        width: 2px;
+        height: .9rem;
+        margin: 0 .5rem;
+        background-color: #666;
+      }
+    }
+
+    ul {
+      list-style: decimal;
+      padding-left: .8rem;
+
+      li {
+        color: #666;
+        font-size: .9rem;
+        margin: 5px;
+      }
+    }
+  }
+}

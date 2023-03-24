@@ -11,6 +11,7 @@ const items = [
   { text: '关于我们', path: 'about' },
   { text: '企业合作', path: 'cooperation' },
   { text: '企业旅游', path: 'tourism' },
+  { text: '加入我们', path: 'career' },
 ]
 
 export default function App() {
@@ -45,6 +46,7 @@ export default function App() {
               {item.text}
             </NavLink>
           ))}
+          <a href='http://b2b.520uct.com/' target='_blank' className='nav-item' rel="noreferrer">登陆/注册</a>
         </div>
         <p className='tel'>全国服务热线: 400-109-0166</p>
       </nav>

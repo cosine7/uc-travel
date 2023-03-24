@@ -1,3 +1,4 @@
+import { Career } from "@/pages/Career";
 import { createHashRouter } from "react-router-dom";
 import App from "../App";
 import About from "../pages/About";
@@ -30,6 +31,10 @@ export default createHashRouter([
       {
         path: 'tourism',
         element: <Tourism />
+      },
+      {
+        path: 'career',
+        element: <Career />
       }
     ]
   }
