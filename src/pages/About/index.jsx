@@ -11,33 +11,29 @@ const cultures = [
 ]
 
 const qualifications = [
-  { src: require('../../assets/images/qualifications/2022年南方航空杰出服务商.jpg'), titles: ['2022年', '南方航空杰出服务商'] },
-  { src: require('../../assets/images/qualifications/2022年南方航空卓越贡献合作伙伴.jpg'), titles: ['2022年', '南方航空卓越贡献合作伙伴'] },
-  { src: require('../../assets/images/qualifications/2022年中国国际航空优秀服务商.jpg'), titles: ['2022年', '中国国际航空优秀服务商'] },
-  { src: require('../../assets/images/qualifications/2022年东方航空出类拔萃奖.jpg'), titles: ['2022年', '东方航空出类拔萃奖'] },
-  { src: require('../../assets/images/qualifications/2022年山东航空卓越贡献奖.png'), titles: ['2022年', '山东航空卓越贡献奖'] },
-  { src: require('../../assets/images/qualifications/2022年海南航空优秀合作伙伴.jpg'), titles: ['2022年', '海南航空优秀合作伙伴'] },
-  { src: require('../../assets/images/qualifications/2022年人力资源服务商百强.jpg'), titles: ['2022年', '人力资源服务商百强'] },
-  { src: require('../../assets/images/qualifications/2021-2022年最具影响力人力资源品牌.jpg'), titles: ['2021-2022年', '最具影响力人力资源品牌'] },
-  { src: require('../../assets/images/qualifications/2021年胡润百富企业商旅服务最佳表现奖.jpg'), titles: ['2021年', '胡润百富企业商旅服务最佳表现奖'] },
-  { src: require('../../assets/images/qualifications/2021-2022年东方航空指定合作差旅管理服务商.jpg'), titles: ['2021-2022年', '东方航空指定合作差旅管理服务商'] },
-  { src: require('../../assets/images/qualifications/2021年南方航空至尊星耀奖.jpg'), titles: ['2021年', '南方航空至尊星耀奖'] },
-  { src: require('../../assets/images/qualifications/2021年南方航空最佳合作伙伴.jpg'), titles: ['2021年', '南方航空最佳合作伙伴'] },
-  { src: require('../../assets/images/qualifications/国际航协IATA资质.png'), titles: ['国际航协', 'IATA资质'] },
-  { src: require('../../assets/images/qualifications/上海市文化旅游局4A级旅行社资质.png'), titles: ['上海市', '文化旅游局4A级旅行社资质'] },
-  { src: require('../../assets/images/qualifications/中国文化旅游部出境和国内旅游资质.png'), titles: ['中国文化旅游部', '出境和国内旅游资质'] },
-  { src: require('../../assets/images/qualifications/上海市会议经营与服务（会议服务机构）AAAA资质.png'), titles: ['上海市会议经营与服务（会议服务机构）AAAA资质'] },
-  { src: require('../../assets/images/qualifications/信息系统安全等级保护备案二级证明.jpg'), titles: ['信息系统安全等级保护备案二级证明'] },
-  { src: require('../../assets/images/qualifications/ISO27001信息安全管理体系认证证书.png'), titles: ['ISO27001信息安全管理体系认证证书'] },
-  { src: require('../../assets/images/qualifications/ISO9001管理体系认证证书.png'), titles: ['ISO9001管理体系认证证书'] },
-  { src: require('../../assets/images/qualifications/中国国家版权局颁发软件著作权.png'), titles: ['中国国家版权局颁发软件著作权'] },
+  ['2022年', '南方航空杰出服务商'],
+  ['2022年', '南方航空卓越贡献合作伙伴'],
+  ['2022年', '中国国际航空优秀服务商'],
+  ['2022年', '东方航空出类拔萃奖'],
+  ['2022年', '山东航空卓越贡献奖'],
+  ['2022年', '海南航空优秀合作伙伴'],
+  ['2022年', '人力资源服务商百强'],
+  ['2021-2022年', '最具影响力人力资源品牌'],
+  ['2021年', '胡润百富企业商旅服务最佳表现奖'],
+  ['2021-2022年', '东方航空指定合作差旅管理服务商'],
+  ['2021年', '南方航空至尊星耀奖'],
+  ['2021年', '南方航空最佳合作伙伴'],
+  ['国际航协', 'IATA资质'],
+  ['上海市', '文化旅游局4A级旅行社资质'],
+  ['中国文化旅游部', '出境和国内旅游资质'],
+  ['上海市会议经营与服务 (会议服务机构) AAAA资质'],
+  ['信息系统安全等级保护备案二级证明'],
+  ['ISO27001信息安全管理体系认证证书'],
+  ['ISO9001管理体系认证证书'],
+  ['中国国家版权局颁发软件著作权'],
 ]
 
-const features = [
-  { src: require('../../assets/images/frontDesk.jpeg'), title: '优创商旅前台' },
-  { src: require('../../assets/images/workingArea.jpeg'), title: '优创商旅办公区域' },
-  { src: require('../../assets/images/meetingRoom.jpeg'), title: '优创商旅会议室' },
-]
+const features = ['优创商旅前台', '优创商旅办公区域', '优创商旅会议室']
 
 export default function About() {
   return (
@@ -81,10 +77,10 @@ export default function About() {
         <h1>荣誉资质</h1>
         <h4>HONOR AND QUALIFICATION</h4>
         <div className="items">
-          {qualifications.map(qualification => (
-            <div className="card" key={qualification.src}>
-              <img src={qualification.src} alt="荣誉资质" />
-              {qualification.titles.map(p => <p key={p}>{p}</p>)}
+          {qualifications.map((qualification, i) => (
+            <div className="card" key={qualification.join('')}>
+              <img src={require(`@images/qualifications/${i}.jpg`)} alt="荣誉资质" />
+              {qualification.map(p => <p key={p}>{p}</p>)}
             </div>
           ))}
         </div>
@@ -93,10 +89,10 @@ export default function About() {
         <h1>企业风貌</h1>
         <h4>CORPORATE FEATURES</h4>
         <div className="items">
-          {features.map(feature => (
-            <div className="card" key={feature.title}>
-              <img src={feature.src} alt="企业风貌" />
-              <p>{feature.title}</p>
+          {features.map((feature, i) => (
+            <div className="card" key={feature}>
+              <img src={require(`@images/features/${i}.jpeg`)} alt="企业风貌" />
+              <p>{feature}</p>
               <div className="line" />
             </div>
           ))}
