@@ -70,8 +70,8 @@ export default function Solution() {
         </div>
       </div>
       <div className="system">
-        <h1>精算盘商旅系统</h1>
-        <h5>恒顺商旅自主研发精算盘商旅系统, 对接主流费控系统, 宗旨 "帮企业客户, 控差旅标准, 省差旅费用", 可省30%差旅费用</h5>
+        <h1>UCT商旅系统</h1>
+        <h5>优创商旅自主研发精算盘商旅系统, 对接主流费控系统, 宗旨 "帮企业客户, 控差旅标准, 省差旅费用", 可省30%差旅费用</h5>
         <div className='items'>
           {systems.map(system => (
             <div key={system.content[0]} className='card'>
@@ -118,7 +118,7 @@ export default function Solution() {
       </div>
       <div className="connection">
         <h1>商旅系统对接方案</h1>
-        <h5>致力将精算盘商旅系统打造为场景化、定制化、人性化为特征的智能商旅系统</h5>
+        <h5>致力将UCT商旅系统打造为场景化、定制化、人性化为特征的智能商旅系统</h5>
         <h3>对接方式</h3>
         <div className='wrapper'>
           <div className="line" />

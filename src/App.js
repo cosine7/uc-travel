@@ -4,7 +4,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 import { useCallback, useEffect, useState } from 'react';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-
+// 
 const items = [
   { text: '首页', path: '' },
   { text: '解决方案', path: 'solution' },
@@ -15,10 +15,10 @@ const items = [
 ]
 
 export default function App() {
-  const [navBarClass, setNavBarClass] = useState(null)
+  const [navBarClass, setNavBarClass] = useState('')
 
   const onScroll = useCallback(() => {
-    let className = window.scrollY > 0 ? 'nav-bar-white' : null
+    let className = window.scrollY > 0 ? ' nav-bar-white' : ''
 
     if (className !== navBarClass) {
       setNavBarClass(className)
@@ -34,7 +34,7 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
-      <nav className={`nav ${navBarClass}`}>
+      <nav className={`nav${navBarClass}`}>
         <div className='left'>
           <Logo className='logo' />
           {items.map(item => (
@@ -46,7 +46,7 @@ export default function App() {
               {item.text}
             </NavLink>
           ))}
-          <a href='http://b2b.520uct.com/' target='_blank' className='nav-item' rel="noreferrer">登陆/注册</a>
+          <a href='http://www.520uct.com/' target='_blank' className='nav-item' rel="noreferrer">登陆/注册</a>
         </div>
         <p className='tel'>全国服务热线: 400-109-0166</p>
       </nav>

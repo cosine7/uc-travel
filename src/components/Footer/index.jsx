@@ -11,7 +11,7 @@ export default function Footer() {
           <p>邮箱: uc@uctravelsky.com</p>
           <p>电话: 400-109-0166</p>
           <p>公司地址: 上海市嘉定区爱特路855号A栋11层</p>
-          <p>Copyright&copy; 2013-2023, ???.com All Right Reserved 沪ICP备2021023923号-1</p>
+          <p>Copyright&copy; 520uct.com All Right Reserved 沪ICP备2021023923号-1</p>
         </div>
       </div>
     </div>

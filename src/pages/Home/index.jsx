@@ -20,10 +20,11 @@ const demands = [
 ]
 
 const advantages = [
-  { icon: <MdOutlineAirplaneTicket />, title: '产品优势', subtitle: 'product advantages', content: ['机票: 全方位覆盖全球航线', '酒店: 全球100万+酒店资源', '火车: 全面接入12306资源', '用车: 四大产品，百款车型'] },
-  { icon: <RiUserHeartLine />, title: '服务优势', subtitle: 'service advantages', content: ['专业管控: 全流程专业化差旅管控', '告别垫资: 员工出差满意度更高', '贴心服务: 7x24小时管家式服务更', '有专人和MBoss等专属服务团队'] },
-  { icon: <RiComputerLine />, title: '技术优势', subtitle: 'tech advantages', content: ['专业技术研发团队', '灵活多样的对接方案', '严格的风险控制体系', '信息安全获国际认证'] },
-  { icon: <RiMoneyCnyCircleLine />, title: '财务优势', subtitle: 'financial advantage', content: ['财务结算自动化', '垫付资金按月结算，超低资金使用成本', '在线差旅数据分析报告，实时掌握企业', '差旅支出'] },
+  { icon: <MdOutlineAirplaneTicket />, title: '规模优势', subtitle: 'SCALE ADVANTAGE', content: ['优创商旅是上海市政府五星诚信创建企业, 中国商旅服务知名品牌。'] },
+  { icon: <RiUserHeartLine />, title: '业务优势', subtitle: 'BUSINESS ADVANTAGES', content: ['优创商旅拥有20年商旅服务经验，现已将差旅、旅游二大业务链完全整合，成为中国为数不多的TMC3.0服务企业。为全国企事业单位提供一站式商旅服务。'] },
+  { icon: <RiComputerLine />, title: '服务优势', subtitle: 'SERVICE ADVANTAGES', content: ['优创商旅差旅、旅游两大运营团队，平均行业经验5年以上。可通过电话、Email、QQ、手机、微信等方式对接，24小时一对一业务顾问，为客户提供更热情、更主动、更专业、更细致的高品质服务。'] },
+  { icon: <RiMoneyCnyCircleLine />, title: '价格优势', subtitle: 'PRICE ADVANTAGES', content: ['优创商旅可协助客户与航空公司及酒店签署大客户协议，并且通过自建的SRM供应商采购平台（备注：2019年平台采购交易量为4.5亿元人民币)，以确保我们机票、酒店、火车、签证、用车、旅游上的价格优势，每年可为客户节省至少20%-30%的差旅费用。'] },
+  { icon: <RiMoneyCnyCircleLine />, title: '系统优势', subtitle: 'SYSTEM ADVANTAGE', content: ['优创商旅自主研发的UCT商旅系统，可通过PC端、微信公众号、系统OA对接等进行差旅预订。并可根据客户要求进行常旅客预订权限设置、审批权限设置、低价提醒等，满足客户不同需求。'] },
 ]
 
 const solutions = [
@@ -75,8 +76,8 @@ export default function Home() {
         </div>
       </div>
       <div className='advantage'>
-        <h1>企业优势</h1>
-        <h4>管理系统 + 专业服务</h4>
+        <h1>服务优势</h1>
+        <h4>提供一对一 “差旅顾问+客户经理” 双服务体系, 充分保障服务品质</h4>
         <div className='items'>
           {advantages.map(advantage => (
               <div key={advantage.title} className='card'>
