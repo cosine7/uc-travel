@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uc-travel/static/css/main.0f5bedd1.css",
-    "main.js": "/uc-travel/static/js/main.2181b0e5.js",
+    "main.css": "/uc-travel/static/css/main.95dcd5cf.css",
+    "main.js": "/uc-travel/static/js/main.9be0dd2a.js",
     "static/js/787.71a6db40.chunk.js": "/uc-travel/static/js/787.71a6db40.chunk.js",
     "static/media/welcome.mp4": "/uc-travel/static/media/welcome.2f9d62a9c19bd5ae4b82.mp4",
     "static/media/beach.jpg": "/uc-travel/static/media/beach.7a526badb54845ba0b26.jpg",
@@ -24,7 +24,6 @@
     "static/media/3.jpg": "/uc-travel/static/media/3.c7ebcb1a6d1e63f65024.jpg",
     "static/media/solution.jpeg": "/uc-travel/static/media/solution.5373d1bf6723d875e69e.jpeg",
     "static/media/boss.jpg": "/uc-travel/static/media/boss.c4362840f33881fc2577.jpg",
-    "static/media/logo.svg": "/uc-travel/static/media/logo.db5b3e7bdc3abd06c4523d3a5da7f320.svg",
     "static/media/7.jpg": "/uc-travel/static/media/7.4d1f636e3a5b94b3b327.jpg",
     "static/media/12.jpg": "/uc-travel/static/media/12.a8ad90545e29f100cbbf.jpg",
     "static/media/12.png": "/uc-travel/static/media/12.8dcd61638811439d7f87.png",
@@ -48,12 +47,13 @@
     "static/media/1.png": "/uc-travel/static/media/1.40b6ef478f73e707357c.png",
     "static/media/14.png": "/uc-travel/static/media/14.36d992176ba290938488.png",
     "index.html": "/uc-travel/index.html",
-    "main.0f5bedd1.css.map": "/uc-travel/static/css/main.0f5bedd1.css.map",
-    "main.2181b0e5.js.map": "/uc-travel/static/js/main.2181b0e5.js.map",
+    "static/media/logo.svg": "/uc-travel/static/media/logo.3d054ebea2c5772ef0df67031ca23a6b.svg",
+    "main.95dcd5cf.css.map": "/uc-travel/static/css/main.95dcd5cf.css.map",
+    "main.9be0dd2a.js.map": "/uc-travel/static/js/main.9be0dd2a.js.map",
     "787.71a6db40.chunk.js.map": "/uc-travel/static/js/787.71a6db40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f5bedd1.css",
-    "static/js/main.2181b0e5.js"
+    "static/css/main.95dcd5cf.css",
+    "static/js/main.9be0dd2a.js"
   ]
 }
