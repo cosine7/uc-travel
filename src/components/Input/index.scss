@@ -1,0 +1,44 @@
+$border: #DCDFE6;
+$focus: #409EFF;
+
+.custom-input {
+  position: relative;
+  margin-bottom: 20px;
+  
+  span {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    padding: 0px 5px;
+    background-color: white;
+    color: #A8ABB2;
+    pointer-events: none;
+    transition: all .3s;
+    user-select: none;
+  }
+  
+  input {
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid $border;
+    border-radius: 8px;
+    height: 45px;
+    width: 100%;
+    max-width: 320px;
+    padding: 0 20px;
+    font-size: 16px;
+
+    &:focus, &:valid {
+      border-color: $focus;
+
+      + span {
+        top: 0;
+        font-size: 12px;
+        color: $focus;
+      }
+    }
+  }
+}
+  

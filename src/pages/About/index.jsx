@@ -29,7 +29,7 @@ const qualifications = [
   ['中国国家版权局颁发软件著作权'],
 ]
 
-const features = ['优创商旅前台', '优创商旅办公区域', '优创商旅会议室']
+const features = ['优创商旅茶室', '优创商旅办公区域', '优创商旅会议室']
 
 export default function About() {
   return (
@@ -44,7 +44,7 @@ export default function About() {
         <h1>优创 (上海) 国际旅行社有限公司</h1>
         <h4>UC Travel (Shanghai) Co., Ltd</h4>
         <div className="wrapper">
-          <div className="boss" />
+          <div className="front-desk" />
           <div className='text'>
             <p>优创（上海）国际旅行社有限公司,中文简称优创商旅, 英文名字UCTRAVEL, 简称UCT, 公司成立2016年, UCT前身是上海工航旅游咨询有限公司成立于2005年, UCT团队多年来持续深耕于出行大交通领域, 培养和沉淀了一批优秀的专业人才, 目前公司业务分企业差旅, 平台供应商, MICE定制, 游学策划, 四个板块。</p>
             <p>UCT专注商务旅行行业, 服务全国800多家企事业单位和6万名高端个人客户, 为客户提供产品业务覆盖机票、火车票、酒店、租车、签证、保险、会议定制、游学策划等企业商旅全品类服务。</p>

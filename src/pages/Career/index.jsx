@@ -153,7 +153,7 @@ export function Career() {
           <div className="line" />
           <div className="contact">
             <h3>简历投递</h3>
-            <h4>应聘简历请发至 uc@uctravelsky.com</h4>
+            <h4>应聘简历请发至 hr@uctravelsky.com</h4>
             <h3>联系人</h3>
             <h4>陈先生</h4>
             <h4>(021) 5235880</h4>

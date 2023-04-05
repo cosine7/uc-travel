@@ -1,0 +1,55 @@
+.custom-btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .2s;
+
+  @keyframes rotate {
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  .spinner {
+    animation: rotate 1s infinite forwards linear;
+    margin: 0;
+  }
+}
+
+.custom-btn-color-blue {
+  background-color: #409EFF;
+
+  &:hover {
+    background-color: #79bbff;
+  }
+
+  &:active {
+    background-color: #337ecc;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: #409EFF;
+  }
+}
+
+.custom-btn-color-red {
+  background-color: #F56C6C;
+
+  &:hover {
+    background-color: #f89898;
+  }
+
+  &:active {
+    background-color: #c45656;
+  }
+}
