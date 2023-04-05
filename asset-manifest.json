@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uc-travel/static/css/main.95dcd5cf.css",
-    "main.js": "/uc-travel/static/js/main.9be0dd2a.js",
+    "main.css": "/uc-travel/static/css/main.786f63e9.css",
+    "main.js": "/uc-travel/static/js/main.e44739b1.js",
     "static/js/787.71a6db40.chunk.js": "/uc-travel/static/js/787.71a6db40.chunk.js",
     "static/media/welcome.mp4": "/uc-travel/static/media/welcome.2f9d62a9c19bd5ae4b82.mp4",
     "static/media/beach.jpg": "/uc-travel/static/media/beach.7a526badb54845ba0b26.jpg",
@@ -15,6 +15,7 @@
     "static/media/2.jpg": "/uc-travel/static/media/2.1a205a087d1507064362.jpg",
     "static/media/3.jpeg": "/uc-travel/static/media/3.aeadc0e429b2fabbc08a.jpeg",
     "static/media/0.jpg": "/uc-travel/static/media/0.91aa2a132a74c1b251a3.jpg",
+    "static/media/phone.png": "/uc-travel/static/media/phone.873460b1a7d2a0b886f1.png",
     "static/media/aerofoil.jpg": "/uc-travel/static/media/aerofoil.f021ecbf84aa2beb2242.jpg",
     "static/media/1.jpg": "/uc-travel/static/media/1.b08c6900dac32d903bdc.jpg",
     "static/media/about.jpeg": "/uc-travel/static/media/about.15a79eb3bcb964e86312.jpeg",
@@ -48,12 +49,12 @@
     "static/media/14.png": "/uc-travel/static/media/14.36d992176ba290938488.png",
     "index.html": "/uc-travel/index.html",
     "static/media/logo.svg": "/uc-travel/static/media/logo.3d054ebea2c5772ef0df67031ca23a6b.svg",
-    "main.95dcd5cf.css.map": "/uc-travel/static/css/main.95dcd5cf.css.map",
-    "main.9be0dd2a.js.map": "/uc-travel/static/js/main.9be0dd2a.js.map",
+    "main.786f63e9.css.map": "/uc-travel/static/css/main.786f63e9.css.map",
+    "main.e44739b1.js.map": "/uc-travel/static/js/main.e44739b1.js.map",
     "787.71a6db40.chunk.js.map": "/uc-travel/static/js/787.71a6db40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95dcd5cf.css",
-    "static/js/main.9be0dd2a.js"
+    "static/css/main.786f63e9.css",
+    "static/js/main.e44739b1.js"
   ]
 }
