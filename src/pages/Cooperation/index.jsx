@@ -5,7 +5,7 @@ import { FaWarehouse } from 'react-icons/fa'
 import Banner from '@components/Banner'
 
 const contacts = [
-  { icon: <HiOutlineBuildingOffice2 />, title: '企业客户合作专线', content: ['联系人：王小姐', 'TEL: 400-109-0166 转 4', 'Email: uc@uctravelsky.com'] },
+  { icon: <HiOutlineBuildingOffice2 />, title: '企业客户合作专线', content: ['联系人：杨先生', 'TEL: 400-109-0166 转 4', 'Email: uc@uctravelsky.com'] },
   { icon: <RiComputerLine />, title: '技术合作专线', content: ['联系人: 朱先生', 'TEL: (021) 52555502', 'Email: technology@uctravelsky.com'] },
   { icon: <FaWarehouse />, title: '市场合作专线', content: ['联系人：王小姐', 'TEL: 400-109-0166 转 4', 'Email: market@uctravelsky.com'] },
 ]

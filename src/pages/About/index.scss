@@ -69,6 +69,7 @@
     }
 
     .card {
+      flex-basis: 30%;
       h4 {
         margin: 5px 0;
       }
@@ -88,14 +89,18 @@
     .items {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-evenly;
+    }
+
+    .wrapper {
+      flex-basis: 25%;
     }
 
     .card {
       width: 280px;
       background-color: white;
       padding: 0.5rem;
-      margin-bottom: 0.5rem;
+      margin: 0 auto 1rem;
+      height: 255px;
 
       img {
         width: 100%;
