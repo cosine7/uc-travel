@@ -46,7 +46,7 @@ export default function App() {
               {item.text}
             </NavLink>
           ))}
-          <a href='http://www.520uct.com/' target='_blank' className='nav-item' rel="noreferrer">登陆/注册</a>
+          <a href='http://user.520uct.com/' target='_blank' className='nav-item' rel="noreferrer">登陆/注册</a>
         </div>
         <p className='tel'>全国服务热线: 400-109-0166</p>
       </nav>
