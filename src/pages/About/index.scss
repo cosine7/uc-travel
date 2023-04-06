@@ -79,7 +79,7 @@
   .qualification {
     text-align: center;
     background-color: #efefef;
-    padding: 2rem 8rem 4rem;
+    padding: 2rem 0 4rem;
 
     h4 {
       color: gray;
@@ -89,6 +89,8 @@
     .items {
       display: flex;
       flex-wrap: wrap;
+      width: 1200px;
+      margin: 0 auto;
     }
 
     .wrapper {

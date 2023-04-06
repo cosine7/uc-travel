@@ -14,3 +14,8 @@ body {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "logoFont";
+  src: url('./assets/font/logoFont.ttf') format('truetype');
+}
