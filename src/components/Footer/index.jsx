@@ -40,21 +40,25 @@ export default function Footer() {
 
       axios.post(
         process.env.REACT_APP_SEND_EMAIL_API,
+        null,
         {
           params: {
             method: 'SERVICE_SENDEMAIL',
-            servicedata: {
+            servicedata: JSON.stringify({
               coName: data.company,
               coContacter: data.contactPerson,
               contactPhoneNum: data.phone,
               jonName: data.position,
               coTelephone: data.companyTelephone,
               coEmail: data.companyEmail,
-            },
+            })
           },
         }
       )
-      .then(() => {
+      .then(response => {
+        if (!response.data.isSuccess) {
+          throw new Error()
+        }
         window.confirm('发送成功')
       })
       .catch(() => {
