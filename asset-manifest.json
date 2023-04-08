@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uc-travel/static/css/main.fb033d42.css",
-    "main.js": "/uc-travel/static/js/main.df5870de.js",
+    "main.js": "/uc-travel/static/js/main.40768eba.js",
     "static/js/787.71a6db40.chunk.js": "/uc-travel/static/js/787.71a6db40.chunk.js",
     "static/media/welcome.mp4": "/uc-travel/static/media/welcome.2f9d62a9c19bd5ae4b82.mp4",
     "static/media/beach.jpg": "/uc-travel/static/media/beach.7a526badb54845ba0b26.jpg",
@@ -52,11 +52,11 @@
     "index.html": "/uc-travel/index.html",
     "static/media/logo.svg": "/uc-travel/static/media/logo.a78d9686930b0cc8dd38047d65263f1b.svg",
     "main.fb033d42.css.map": "/uc-travel/static/css/main.fb033d42.css.map",
-    "main.df5870de.js.map": "/uc-travel/static/js/main.df5870de.js.map",
+    "main.40768eba.js.map": "/uc-travel/static/js/main.40768eba.js.map",
     "787.71a6db40.chunk.js.map": "/uc-travel/static/js/787.71a6db40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb033d42.css",
-    "static/js/main.df5870de.js"
+    "static/js/main.40768eba.js"
   ]
 }
