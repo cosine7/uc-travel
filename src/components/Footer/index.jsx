@@ -2,18 +2,21 @@ import './index.scss'
 import { ReactComponent as Logo } from '../../logo.svg';
 import Button from '@components/Button';
 import { useCallback, useState } from 'react';
+import axios from 'axios'
 
 const phoneRegExp = /^1[34578]\d{9}$/
 const telephoneRegExp = /^(\(\d{3,4}\)|\d{3,4}-|\s)?\d{7,14}$/
 const emailRegExp = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
+
 export default function Footer() {
   const [error, setError] = useState()
   const [loading, setLoading] = useState(false)
 
-  const onSubmit = useCallback(e => {
+  const onSubmit = useCallback(async e => {
     e.preventDefault()
     setLoading(true)
+
     const data = {}
 
     try {
@@ -33,8 +36,30 @@ export default function Footer() {
       if (!emailRegExp.test(data.companyEmail)) {
         throw new Error('无效企业邮箱')
       }
-      // 在这里发送请求
       setError('')
+
+      axios.post(
+        process.env.REACT_APP_SEND_EMAIL_API,
+        {
+          params: {
+            method: 'SERVICE_SENDEMAIL',
+            servicedata: {
+              coName: data.company,
+              coContacter: data.contactPerson,
+              contactPhoneNum: data.phone,
+              jonName: data.position,
+              coTelephone: data.companyTelephone,
+              coEmail: data.companyEmail,
+            },
+          },
+        }
+      )
+      .then(() => {
+        window.confirm('发送成功')
+      })
+      .catch(() => {
+        window.confirm('发送失败，请重试')
+      })
     } catch (err) {
       setError(err.message)
     } finally {
